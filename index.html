@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main>
+        <header>
+        </header>
+        <form action="" method="get">
+            <div class="page" id="page1">
+                <h1>Identité</h1>
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom">
+                </div>
+                <div>
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom">
+                </div>
+                <button class="next" type="button">Suivant</button>
+            </div>
+            <div class="page" id="page2">
+                <h1>Informations</h1>
+                <div>
+                    <label for="adresse">Adresse :</label>
+                    <input type="text" id="adresse" name="adresse">
+                </div>
+                <div>
+                    <label for="cp">Code postal :</label>
+                    <input type="text" id="cp" name="cp">
+                </div>
+                <div>
+                    <label for="ville">Ville :</label>
+                    <input type="text" id="ville" name="ville">
+                </div>
+                <button class="prev" type="button">Précédent</button>
+                <button class="next" type="button">Suivant</button>
+            </div>
+            <div class="page" id="page3">
+                <h1>Identifiants</h1>
+                <div>
+                    <label for="email">E-mail :</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div>
+                    <label for="pass">Mot de passe :</label>
+                    <input type="password" id="pass" name="pass">
+                </div>
+                <button class="prev" type="button">Précédent</button>
+                <button>Terminer</button>
+            </div>
+        </form>
+    </main>
+    
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
